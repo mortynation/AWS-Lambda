@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    password: Mortynation@24
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/song-reviews-service
